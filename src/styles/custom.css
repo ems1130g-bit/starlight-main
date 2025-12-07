@@ -7,6 +7,12 @@
 	--sl-color-bg-table-stripe: #111111;
 	--sl-color-hairline-light: #333333;
 	--sl-color-hairline: #333333;
+
+	/* Neon Green Brand Colors */
+	--sl-color-accent-low: #0f4005;
+	--sl-color-accent: #39ff14;
+	--sl-color-accent-high: #b8ffad;
+	--sl-color-text-accent: #39ff14;
 }
 
 [data-theme='light'] {

@@ -1,40 +1,50 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: Be Clear, Think Smart
+description: Daily issue update
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: *Daily issue update*
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
-      icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: Contact
+      link: mailto:ems1130g@gmail.com
+      icon: email
+      variant: primary
+    - text: Go to Instagram
+      link: https://instagram.com/no_mute
       icon: external
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Our Rules
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="World" icon="globe">
+        **South Korea secures $350 billion pledge from pending US deals**
+        
+        **Lee Jae Myung seals currency swap with China**
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="Politics" icon="document">
+        **Defense Secretary Pete Hegseth warns allies on spending**
+        
+        **President Lee Jae Myung considers apology for drone tension**
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Culture" icon="pencil">
+        **Seongbuk European Christmas Market opens**
+        
+        **Cho Jin-woong retirement sparks cancel culture debate**
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Tech & Sci." icon="rocket">
+        **Govt 150 trillion won fund invests in SK Hynix AI cluster**
+        
+        **Samsung to regain top DRAM spot in Q4 2025**
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+    <Card title="Finance" icon="setting">
+        **Regulations for KRW stablecoins accelerating**
+        
+        **Major cyberattack hits Upbit exchange**
+    </Card>
 </CardGrid>

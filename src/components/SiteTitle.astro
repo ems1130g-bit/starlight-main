@@ -1,0 +1,25 @@
+---
+import type { Props } from "@astrojs/starlight/props";
+---
+
+<a href="/" class="site-title sl-flex">
+    <span class="logo-no">No</span>
+    <span class="logo-mute">Mute</span>
+</a>
+
+<style>
+    .site-title {
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 1.5rem;
+        align-items: center;
+        color: var(--sl-color-text-accent);
+        gap: 0.25em;
+    }
+    .logo-no {
+        color: #39ff14; /* Neon Green */
+    }
+    .logo-mute {
+        color: #ffffff;
+    }
+</style>

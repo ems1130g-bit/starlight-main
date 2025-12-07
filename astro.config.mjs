@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
     integrations: [
         starlight({
-            title: 'Starlight Basics',
+            title: 'No Mute',
             social: {
                 github: 'https://github.com/withastro/starlight',
             },
@@ -18,6 +18,9 @@ export default defineConfig({
                 },
             ],
             customCss: ['./src/styles/custom.css'],
+            components: {
+                SiteTitle: './src/components/SiteTitle.astro',
+            },
         }),
     ],
 });
