@@ -27,3 +27,9 @@
 	--sl-color-hairline-light: #333333;
 	--sl-color-hairline: #333333;
 }
+
+/* Force icons to be Neon Green */
+:global(.card-icon),
+.card .icon {
+	color: var(--sl-color-accent) !important;
+}
