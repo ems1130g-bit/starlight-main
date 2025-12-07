@@ -1,0 +1,23 @@
+:root {
+	--sl-color-bg: #000000;
+	--sl-color-bg-nav: #000000;
+	--sl-color-bg-sidebar: #000000;
+	--sl-color-bg-inline-code: #111111;
+	--sl-color-bg-table: #000000;
+	--sl-color-bg-table-stripe: #111111;
+	--sl-color-hairline-light: #333333;
+	--sl-color-hairline: #333333;
+}
+
+[data-theme='light'] {
+	--sl-color-bg: #000000;
+	--sl-color-bg-nav: #000000;
+	--sl-color-bg-sidebar: #000000;
+	--sl-color-bg-inline-code: #111111;
+	--sl-color-bg-table: #000000;
+	--sl-color-bg-table-stripe: #111111;
+	--sl-color-text: #eeeeee;
+	--sl-color-text-accent: #ffffff;
+	--sl-color-hairline-light: #333333;
+	--sl-color-hairline: #333333;
+}
