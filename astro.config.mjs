@@ -6,9 +6,7 @@ export default defineConfig({
     integrations: [
         starlight({
             title: 'No Mute',
-            social: [
-    { label: 'GitHub', href: 'https://github.com/ems1130g-bit/starlight-main' },
-],
+            social: [],
             sidebar: [
                 {
                     label: 'Start Here',
