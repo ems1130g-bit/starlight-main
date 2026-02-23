@@ -6,9 +6,9 @@ export default defineConfig({
     integrations: [
         starlight({
             title: 'No Mute',
-            social: {
+            social: [
                 github: 'https://github.com/withastro/starlight',
-            },
+            ],
             sidebar: [
                 {
                     label: 'Start Here',
