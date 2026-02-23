@@ -7,7 +7,7 @@ export default defineConfig({
         starlight({
             title: 'No Mute',
             social: [
-    { icon: 'github', link: 'https://github.com/ems1130g-bit/starlight-main' },
+    { label: 'GitHub', href: 'https://github.com/ems1130g-bit/starlight-main' },
 ],
             sidebar: [
                 {
